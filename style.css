@@ -66,7 +66,7 @@ nav .menu-items a{
 .logo {
     cursor: pointer;
 }
-.row {
+.row-1 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -134,4 +134,14 @@ footer .logo a {
 }
 footer .logo a:hover {
     color: var(--primary);
+}
+
+
+@media only screen and (max-width: 810px)  {
+    .row-1 {
+        text-align: center;
+    }
+    footer .logo {
+        text-align: center;
+    }
 }
